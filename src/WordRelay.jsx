@@ -26,9 +26,10 @@ const WordRelay = () => {
 
   return (
     <>
-      <div>{word}</div>
+      <h1>끝말잇기</h1>
+      <h2>{word}</h2>
       <form onSubmit={onSubmitForm}>
-        <input type="text" ref={inputRef} value={value} onChange={onChange} />
+        <input type="text" ref={inputRef} value={value} onChange={onChange} placeholder="글자를 입력하세요." />
         <button>입력</button>
         <p>{result}</p>
       </form>
