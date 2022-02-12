@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NumberBaseball from './NumberBaseball';
+import ResponseCheck from './ResponseCheck';
 import WordRelay from './WordRelay';
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
       <WordRelay />
       <hr />
       <NumberBaseball />
+      <hr />
+      <ResponseCheck />
     </div>
   );
 }

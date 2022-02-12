@@ -11,3 +11,34 @@
   flex-direction: column;
   justify-content: center;
 }
+
+#screen_wrap {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#screen_wrap > div {
+  margin: 15px 0;
+}
+#screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  user-select: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#screen.waiting {
+  background-color: rgb(172, 210, 243);
+}
+#screen.ready {
+  background-color: rgb(231, 90, 90);
+  color: #fff;
+}
+#screen.now {
+  background-color: greenyellow;
+}
